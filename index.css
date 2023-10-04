@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+}
+
+/* Header Components */
+.header {
+  width: 100%;
+  height: 102px;
+  background: #f55a5a;
+}
+
+.logo--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 1em;
+  padding: 0.5em 10em;
+  /* border: 1px solid black; */
+}
+
+.logo {
+  width: 80px;
+}
+
+.logo--container > h1 {
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+.card-container {
+  width: 50%;
+  margin: 1em auto;
+  display: flex;
+  gap: 20px;
+}
+
+.bodyImg {
+  width: 230px;
+  height: 270px;
+  border-radius: 5px;
+}
+
+.rightside {
+  margin-top: 1.5em;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightside > a {
+  color: gray;
+}
+
+span {
+  gap: 1em;
+}
+
+.location {
+  padding-left: 1em;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.googleurl {
+  padding-right: 2em;
+  color: #918e9b;
+}
+
+.date {
+  margin-top: 1.5em;
+  font-weight: 600;
+}
+
+.desc {
+  margin-top: 1.5em;
+}
+
+.fontIcon {
+  color: #f55a5a;
+}
+
+.placename {
+  margin-top: 0.5em;
+}
+
+.footer {
+  background: #f55a5a;
+  text-align: center;
+  padding: 1em 0;
+  color: whitesmoke;
+}

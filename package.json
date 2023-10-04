@@ -1,0 +1,32 @@
+{
+  "name": "travel-journal",
+  "version": "1.0.0",
+  "description": "my-travel-journal",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Productivty/travel-journal.git"
+  },
+  "author": "Pradeep Thapa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Productivty/travel-journal/issues"
+  },
+  "homepage": "https://github.com/Productivty/travel-journal#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
