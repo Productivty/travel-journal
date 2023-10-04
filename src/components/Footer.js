@@ -3,8 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer">
-      <p className="footer-para">©️Pradeep Thapa</p>
-      <p>All right reserved</p>
+      <p className="footer-para">©️ All rights reserved</p>
     </div>
   );
 }
