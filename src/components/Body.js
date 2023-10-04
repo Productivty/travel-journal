@@ -19,7 +19,7 @@ function Body(props) {
             <FontAwesomeIcon className="fontIcon" icon={faLocationDot} />
             <span className="location">{props.place.location}</span>
           </span>
-          <a href={props.googleMapsUrl} className="googleurl">
+          <a href={props.place.googleMapsUrl} className="googleurl">
             View on Map
           </a>
         </div>
